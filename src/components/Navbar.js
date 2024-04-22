@@ -20,12 +20,8 @@ export default function Navbar() {
         Site Name
       </Link>
       <ul>
-        <li className="active">
-          <CustomLink to="/pricing">Pricing</CustomLink>
-        </li>
-        <li>
-          <CustomLink to="/about">About</CustomLink>
-        </li>
+        <CustomLink to="/pricing">Pricing</CustomLink>
+        <CustomLink to="/about">About</CustomLink>
       </ul>
     </nav>
   );
